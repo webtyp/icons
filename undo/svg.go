@@ -3,8 +3,8 @@
 package undo
 
 import (
-	"github.com/tinywasm/icons"
-	"github.com/tinywasm/svg/sprite"
+	"webtyp.com/icons"
+	"webtyp.com/svg/sprite"
 )
 
 // Def is the glyph geometry, for a consumer's IconSvg() sprite. FontAwesome

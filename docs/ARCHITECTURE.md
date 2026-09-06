@@ -9,19 +9,19 @@ Every glyph package has exactly two source files (plus a test):
 | `<glyph>.go` | *(none)* | `const Ref = svg.Icon("<id>")` | WASM **and** backend |
 | `svg.go` | `//go:build !wasm` | `func Def() sprite.Definition` | backend / SSR only |
 
-`Ref` is a `github.com/tinywasm/svg.Icon`, which is just a `string`. Rendering it
+`Ref` is a `webtyp.com/svg.Icon`, which is just a `string`. Rendering it
 (`Ref.Render(class)`) produces `<svg class=...><use href="#<id>"/></svg>` — no
 geometry, just a pointer to a symbol that SSR will have injected.
 
-`Def()` returns a `github.com/tinywasm/svg/sprite.Definition` (id + viewBox +
-`<path>` body). `sprite` serializes SVG through `tinywasm/json` +
-`tinywasm/model`, so it must never enter a WASM build. The `//go:build !wasm`
+`Def()` returns a `webtyp.com/svg/sprite.Definition` (id + viewBox +
+`<path>` body). `sprite` serializes SVG through `webtyp/json` +
+`webtyp/model`, so it must never enter a WASM build. The `//go:build !wasm`
 tag on `svg.go` is what guarantees that: a component importing `trash` for
 `trash.Ref` in its render code does not compile `trash/svg.go` at all.
 
 ## The shared builder
 
-`github.com/tinywasm/icons` (the root package, itself `//go:build !wasm`) holds
+`webtyp.com/icons` (the root package, itself `//go:build !wasm`) holds
 one function:
 
 ```go
@@ -40,7 +40,7 @@ in one place. Consumers never import root `icons`; only the glyph packages'
 flowchart TD
     REF["glyph.Ref (untagged)"] --> RENDER["component Render() → &lt;use href='#id'&gt;"]
     DEF["glyph.Def() (!wasm)"] --> ICONSVG["component IconSvg() → *sprite.Sprite"]
-    ICONSVG --> SSR["tinywasm/ssr extracts the sprite"]
+    ICONSVG --> SSR["webtyp/ssr extracts the sprite"]
     SSR --> PAGE["&lt;symbol&gt; injected once into &lt;body&gt;"]
     RENDER --> PAGE
 ```
@@ -58,5 +58,5 @@ silently ships path data to the browser. The dependency-graph check is the only
 thing that catches it:
 
 ```bash
-GOOS=js GOARCH=wasm go list -deps ./trash ./pencil ./plus ./undo | grep tinywasm/svg/sprite   # MUST be empty
+GOOS=js GOARCH=wasm go list -deps ./trash ./pencil ./plus ./undo | grep webtyp/svg/sprite   # MUST be empty
 ```

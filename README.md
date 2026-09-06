@@ -1,7 +1,7 @@
 # icons
 <img src="docs/img/badges.svg">
 
-Shared SVG icon set for the TinyWasm framework. **One package per glyph.** A
+Shared SVG icon set for the WebTyp framework. **One package per glyph.** A
 project imports only the glyphs it uses; adding a new glyph is a new folder, it
 never touches the ones already here.
 
@@ -12,9 +12,9 @@ An icon has two halves that must reach different places:
 - the **reference** — the symbol id, a plain string. This is all that may reach
   the browser (the WASM binary). It is `const Ref = svg.Icon("trash")`.
 - the **geometry** — the `<path>` data and viewBox. This is backend-only: it is
-  pulled out at build time by `tinywasm/ssr`, injected once into the page, and
+  pulled out at build time by `webtyp/ssr`, injected once into the page, and
   referenced by `<use href="#trash">`. Shipping it to the browser would drag
-  the SVG-serialization machinery (`tinywasm/json`, `tinywasm/model`) into the
+  the SVG-serialization machinery (`webtyp/json`, `webtyp/model`) into the
   bundle for nothing.
 
 Keeping each glyph in its own package is what lets the geometry sit behind
@@ -25,8 +25,8 @@ leak another glyph's path data into a WASM build.
 
 ```go
 import (
-    "github.com/tinywasm/icons/trash"
-    "github.com/tinywasm/svg/sprite"
+    "webtyp.com/icons/trash"
+    "webtyp.com/svg/sprite"
 )
 
 // 1. In component code (compiles to WASM too) — render the reference:

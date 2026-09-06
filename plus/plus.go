@@ -3,7 +3,7 @@
 // //go:build !wasm.
 package plus
 
-import "github.com/tinywasm/svg"
+import "webtyp.com/svg"
 
 // Ref is the symbol id, for markup: plus.Ref.Render(class), or href="#plus".
 const Ref = svg.Icon("plus")

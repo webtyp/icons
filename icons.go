@@ -1,17 +1,17 @@
 //go:build !wasm
 
-// Package icons is the shared builder for TinyWasm's per-glyph icon packages.
+// Package icons is the shared builder for WebTyp's per-glyph icon packages.
 //
 // It is NOT the package a consumer imports. A consumer imports one glyph
-// subpackage — github.com/tinywasm/icons/trash, .../pencil, .../plus,
+// subpackage — webtyp.com/icons/trash, .../pencil, .../plus,
 // .../undo — and takes two things from it:
 //
-//   - Ref  (github.com/tinywasm/svg.Icon) for markup: Ref.Render(class), or a
+//   - Ref  (webtyp.com/svg.Icon) for markup: Ref.Render(class), or a
 //     bare href="#<id>". WASM-safe: only the id string ever reaches the browser.
-//   - Def() (github.com/tinywasm/svg/sprite.Definition) for the backend sprite
+//   - Def() (webtyp.com/svg/sprite.Definition) for the backend sprite
 //     a component ships from its own IconSvg(). Lives behind //go:build !wasm
 //     in each glyph package, so importing a glyph for its Ref never drags the
-//     sprite geometry (and tinywasm/json + tinywasm/model with it) into a WASM
+//     sprite geometry (and webtyp/json + webtyp/model with it) into a WASM
 //     bundle.
 //
 // This package exists only so a glyph package's svg.go is one line and the
@@ -21,8 +21,8 @@
 package icons
 
 import (
-	"github.com/tinywasm/svg"
-	"github.com/tinywasm/svg/sprite"
+	"webtyp.com/svg"
+	"webtyp.com/svg/sprite"
 )
 
 // Solid builds a single-path solid glyph definition: one closed <path> whose

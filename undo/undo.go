@@ -3,7 +3,7 @@
 // Def() lives in svg.go behind //go:build !wasm.
 package undo
 
-import "github.com/tinywasm/svg"
+import "webtyp.com/svg"
 
 // Ref is the symbol id, for markup: undo.Ref.Render(class), or href="#undo".
 const Ref = svg.Icon("undo")

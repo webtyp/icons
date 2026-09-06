@@ -10,7 +10,7 @@
 // //go:build !wasm.
 package selectall
 
-import "github.com/tinywasm/svg"
+import "webtyp.com/svg"
 
 // Ref is the symbol id, for markup: selectall.Ref.Render(class), or
 // href="#selectall".

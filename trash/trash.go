@@ -7,7 +7,7 @@
 // //go:build !wasm.
 package trash
 
-import "github.com/tinywasm/svg"
+import "webtyp.com/svg"
 
 // Ref is the symbol id, for markup: trash.Ref.Render(class), or href="#trash".
 const Ref = svg.Icon("trash")

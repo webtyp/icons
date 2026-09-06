@@ -7,7 +7,7 @@
 // //go:build !wasm.
 package pencil
 
-import "github.com/tinywasm/svg"
+import "webtyp.com/svg"
 
 // Ref is the symbol id, for markup: pencil.Ref.Render(class), or href="#pencil".
 const Ref = svg.Icon("pencil")

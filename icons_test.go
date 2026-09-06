@@ -6,12 +6,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tinywasm/icons/pencil"
-	"github.com/tinywasm/icons/plus"
-	"github.com/tinywasm/icons/selectall"
-	"github.com/tinywasm/icons/trash"
-	"github.com/tinywasm/icons/undo"
-	"github.com/tinywasm/svg/sprite"
+	"webtyp.com/icons/pencil"
+	"webtyp.com/icons/plus"
+	"webtyp.com/icons/selectall"
+	"webtyp.com/icons/trash"
+	"webtyp.com/icons/undo"
+	"webtyp.com/svg/sprite"
 )
 
 // The shape every consumer uses: pull the glyphs a view needs into ONE sprite

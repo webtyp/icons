@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tinywasm/icons/trash"
-	"github.com/tinywasm/svg/sprite"
+	"webtyp.com/icons/trash"
+	"webtyp.com/svg/sprite"
 )
 
 // The Ref is a plain id string — safe to carry into a WASM build. The geometry

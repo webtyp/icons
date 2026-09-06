@@ -1,4 +1,4 @@
-# Agent Guide — `tinywasm/icons`
+# Agent Guide — `webtyp/icons`
 
 Read before adding or changing a glyph.
 
@@ -40,7 +40,7 @@ that hard-codes a colour is a bug.
 
 ```bash
 go build ./... && gotest
-GOOS=js GOARCH=wasm go list -deps ./... | grep tinywasm/svg/sprite   # MUST be empty
+GOOS=js GOARCH=wasm go list -deps ./... | grep webtyp/svg/sprite   # MUST be empty
 ```
 
 The second line failing means a `svg.go` is missing its `//go:build !wasm` tag

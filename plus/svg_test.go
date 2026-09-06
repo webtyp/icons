@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tinywasm/icons/plus"
-	"github.com/tinywasm/svg/sprite"
+	"webtyp.com/icons/plus"
+	"webtyp.com/svg/sprite"
 )
 
 func TestRefIsPlainID(t *testing.T) {
