@@ -51,6 +51,7 @@ path itself is `fill="currentColor"`, so the box around it drives the colour
 | `icons/pencil` | pencil | edit: modify, rename, correct |
 | `icons/plus` | plus | additive: new, add, create |
 | `icons/undo` | counter-clockwise arrow | reverse: cancel, revert, back out |
+| `icons/selectall` | double check | select-all / deselect-all a list |
 
 ## Adding a glyph
 

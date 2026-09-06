@@ -8,6 +8,7 @@ import (
 
 	"github.com/tinywasm/icons/pencil"
 	"github.com/tinywasm/icons/plus"
+	"github.com/tinywasm/icons/selectall"
 	"github.com/tinywasm/icons/trash"
 	"github.com/tinywasm/icons/undo"
 	"github.com/tinywasm/svg/sprite"
@@ -27,6 +28,7 @@ func TestConsumerBuildsSpriteAndMarkup(t *testing.T) {
 		{"pencil", pencil.Def(), pencil.Ref.ID(), pencil.Ref.Render("m").String()},
 		{"plus", plus.Def(), plus.Ref.ID(), plus.Ref.Render("m").String()},
 		{"undo", undo.Def(), undo.Ref.ID(), undo.Ref.Render("m").String()},
+		{"selectall", selectall.Def(), selectall.Ref.ID(), selectall.Ref.Render("m").String()},
 	}
 
 	defs := make([]sprite.Definition, len(glyphs))
