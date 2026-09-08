@@ -2,7 +2,7 @@ module webtyp.com/icons
 
 go 1.25.2
 
-require webtyp.com/svg v0.3.5
+require webtyp.com/svg v0.3.7
 
 require (
 	webtyp.com/dom v0.13.11 // indirect
