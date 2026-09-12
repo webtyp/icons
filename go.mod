@@ -8,5 +8,5 @@ require (
 	webtyp.com/dom v0.13.13 // indirect
 	webtyp.com/fmt v1.0.0 // indirect
 	webtyp.com/json v0.5.25 // indirect
-	webtyp.com/model v0.1.8 // indirect
+	webtyp.com/model v0.1.9 // indirect
 )
