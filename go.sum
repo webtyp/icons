@@ -6,5 +6,5 @@ webtyp.com/json v0.5.25 h1:f/JUsrtFGq4Sa/UGYI0lWHyY83V+r0li+Q89s3DkqZs=
 webtyp.com/json v0.5.25/go.mod h1:KdFRztDe6ZwGP/ih0DR8grO72ru9h1DjZcG1UU5fRrM=
 webtyp.com/model v0.1.9 h1:XpkNiIQbIVaFrbh4E/UqdIutHFNA92//KSP4M/owaSQ=
 webtyp.com/model v0.1.9/go.mod h1:OkyYeE3GOG8eAQGhd9wVsORAhr+xYj3q8avpoGXG25c=
-webtyp.com/svg v0.3.9 h1:aR2ujdE2UStyhiPuzJbdoK0SsDfnxAzaNSmT8VnLkcs=
-webtyp.com/svg v0.3.9/go.mod h1:isQRLXGzjYCw4NKfKjHiIyNOr0XYKpNb4RZ6XIdQ7PM=
+webtyp.com/svg v0.3.11 h1:PVfFbEqreZB5YCX8sBbuyl0MuKnS55gybVIdh3ltwBQ=
+webtyp.com/svg v0.3.11/go.mod h1:iw3iFQnNuhgFlQ1WwRbl68IZWCMAP85//7ZrHdmwMu4=
