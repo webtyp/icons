@@ -8,5 +8,5 @@ webtyp.com/json v0.5.29 h1:6+xcKm8Vz6Idrj51/5qadJRMbH0gldUe/DnuueAzIbE=
 webtyp.com/json v0.5.29/go.mod h1:SrPAF5eadQeUVdnBX4wfi4gvztvaTBAO1y8AuHedOSw=
 webtyp.com/model v0.2.3 h1:q12siUaUgkGaDRtqxZaCHLKMYcPwhe8fyZkKolGbT9g=
 webtyp.com/model v0.2.3/go.mod h1:OkyYeE3GOG8eAQGhd9wVsORAhr+xYj3q8avpoGXG25c=
-webtyp.com/svg v0.3.14 h1:o7jOv6LaZQJpjkESHxMcsMccc11dvLQRvrG5xc9vG8g=
-webtyp.com/svg v0.3.14/go.mod h1:ro5kMrbLOtwWtorrBnlORRsATY6JWmG9AVZgnzrGTSU=
+webtyp.com/svg v0.3.28 h1:HNnIUJ0Ld9biXLGFOQHfryqBUCFGUigx358pQdx+9yM=
+webtyp.com/svg v0.3.28/go.mod h1:MS4mOCzo3scpMn5iDdWLvZQSnKd05c9W4zurBEbqxH8=
