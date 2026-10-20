@@ -9,5 +9,5 @@ require (
 	webtyp.com/escape v0.1.0 // indirect
 	webtyp.com/fmt v1.0.0 // indirect
 	webtyp.com/json v0.5.29 // indirect
-	webtyp.com/model v0.2.3 // indirect
+	webtyp.com/model v0.2.4 // indirect
 )
