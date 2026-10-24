@@ -2,8 +2,10 @@
 PLAN: "feat: laptop, location, network and terminal glyphs"
 EXECUTOR: jules
 REVIEWER: none
-STATUS: running
+STATUS: review
 SESSION: 11800991101015914685
+PR: https://github.com/webtyp/icons/pull/1
+REVIEWED_COMMIT: 735fe9da68d23728ec64fe426c50020116f48ebd
 ---
 
 > Read AGENTS.md at the repo root before any change.

@@ -58,5 +58,5 @@ silently ships path data to the browser. The dependency-graph check is the only
 thing that catches it:
 
 ```bash
-GOOS=js GOARCH=wasm go list -deps ./trash ./pencil ./plus ./undo | grep webtyp/svg/sprite   # MUST be empty
+GOOS=js GOARCH=wasm go list -deps ./... | grep webtyp/svg/sprite   # MUST be empty
 ```

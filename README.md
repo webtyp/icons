@@ -52,6 +52,10 @@ path itself is `fill="currentColor"`, so the box around it drives the colour
 | `icons/plus` | plus | additive: new, add, create |
 | `icons/undo` | counter-clockwise arrow | reverse: cancel, revert, back out |
 | `icons/selectall` | double check | select-all / deselect-all a list |
+| `icons/laptop` | laptop | a device or computer: device lists |
+| `icons/location` | map pin | a place or zone |
+| `icons/network` | wired network | network interfaces, connectivity |
+| `icons/terminal` | command prompt | developer tools: API explorer, console |
 
 ## Adding a glyph
 
