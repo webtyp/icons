@@ -2,6 +2,8 @@
 PLAN: "feat: laptop, location, network and terminal glyphs"
 EXECUTOR: jules
 REVIEWER: none
+STATUS: running
+SESSION: 11800991101015914685
 ---
 
 > Read AGENTS.md at the repo root before any change.
