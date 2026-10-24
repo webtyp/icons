@@ -6,9 +6,13 @@ import (
 	"strings"
 	"testing"
 
+	"webtyp.com/icons/laptop"
+	"webtyp.com/icons/location"
+	"webtyp.com/icons/network"
 	"webtyp.com/icons/pencil"
 	"webtyp.com/icons/plus"
 	"webtyp.com/icons/selectall"
+	"webtyp.com/icons/terminal"
 	"webtyp.com/icons/trash"
 	"webtyp.com/icons/undo"
 	"webtyp.com/svg/sprite"
@@ -29,6 +33,10 @@ func TestConsumerBuildsSpriteAndMarkup(t *testing.T) {
 		{"plus", plus.Def(), plus.Ref.ID(), plus.Ref.Render("m").String()},
 		{"undo", undo.Def(), undo.Ref.ID(), undo.Ref.Render("m").String()},
 		{"selectall", selectall.Def(), selectall.Ref.ID(), selectall.Ref.Render("m").String()},
+		{"laptop", laptop.Def(), laptop.Ref.ID(), laptop.Ref.Render("m").String()},
+		{"location", location.Def(), location.Ref.ID(), location.Ref.Render("m").String()},
+		{"network", network.Def(), network.Ref.ID(), network.Ref.Render("m").String()},
+		{"terminal", terminal.Def(), terminal.Ref.ID(), terminal.Ref.Render("m").String()},
 	}
 
 	defs := make([]sprite.Definition, len(glyphs))
