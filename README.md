@@ -64,4 +64,4 @@ call `sprite.Define` directly in that package instead of widening `icons.Solid`.
 ## Docs
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — the reference/geometry split and how ssr consumes it
-- [docs/AGENTS.md](docs/AGENTS.md) — constraints for agents adding or changing glyphs
+- [AGENTS.md](AGENTS.md) — constraints for agents adding or changing glyphs
