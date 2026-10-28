@@ -55,7 +55,9 @@ path itself is `fill="currentColor"`, so the box around it drives the colour
 | `icons/laptop` | laptop | a device or computer: device lists |
 | `icons/location` | map pin | a place or zone |
 | `icons/network` | wired network | network interfaces, connectivity |
-| `icons/terminal` | command prompt | developer tools: API explorer, console |
+| `icons/terminal` | command prompt | developer tools: a console, the developer tools group |
+| `icons/code` | code brackets `</>` | an API, source code: API explorer |
+| `icons/database` | stack of disks | a database: tables, schema diagram |
 
 ## Adding a glyph
 
