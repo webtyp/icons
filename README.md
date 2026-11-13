@@ -58,6 +58,7 @@ path itself is `fill="currentColor"`, so the box around it drives the colour
 | `icons/terminal` | command prompt | developer tools: a console, the developer tools group |
 | `icons/code` | code brackets `</>` | an API, source code: API explorer |
 | `icons/database` | stack of disks | a database: tables, schema diagram |
+| `icons/circleinfo` | circle with an "i" (outline) | help about a field or a module: the (i) that opens a text |
 
 ## Adding a glyph
 
